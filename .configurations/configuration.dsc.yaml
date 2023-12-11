@@ -61,7 +61,7 @@ properties:
         - npm
       directives:
         description: Install dependencies
-        allowPrerelease: true
+        allowPrerelease: false
       settings:
         PackageDirectory: '${WinGetConfigRoot}\..\'
   configurationVersion: 0.2.0
